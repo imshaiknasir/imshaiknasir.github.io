@@ -41,8 +41,8 @@ export function Hero() {
               LinkedIn
             </a>
             <a
-              href="https://linkedin.com/in/imshaiknasir"
-              className="button button-primary"
+              href="../blob/Nasir_6yrs_QA.pdf"
+              className="button button-secondary"
               target="_blank"
             >
               Download CV
