@@ -20,9 +20,9 @@ jobs:
         run: npm ci
 
       - name: Build and Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
