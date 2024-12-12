@@ -23,29 +23,29 @@ export function Hero() {
               target="_blank"
             >
               <Mail size={18} />
-              Contact Me
+              Contact Me ✉️
               <ArrowRight size={16} className="ml-1" />
-            </a>
-            <a
-              href="https://t.me/shell52"
-              className="button button-primary"
-              target="_blank"
-            >
-              t.me/@shell52
             </a>
             <a
               href="https://linkedin.com/in/imshaiknasir"
               className="button button-primary"
               target="_blank"
             >
-              LinkedIn
+              LinkedIn 👥
             </a>
             <a
-              href="../blob/Nasir_6yrs_QA.pdf"
-              className="button button-secondary"
+              href="https://raw.githubusercontent.com/imshaiknasir/imshaiknasir.github.io/main/blob/Nasir_6yrs_QA.pdf"
+              className="button button-primary"
               target="_blank"
             >
-              Download CV
+              Hire Me 💼
+            </a>
+            <a
+              href="https://t.me/shell52"
+              className="button button-primary"
+              target="_blank"
+            >
+              Telegram 💬
             </a>
           </div>
         </div>

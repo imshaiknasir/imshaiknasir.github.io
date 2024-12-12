@@ -1,4 +1,4 @@
-import { Code2, Server, Database, ChevronRight } from 'lucide-react';
+import { Code2, Server, Database, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function Skills() {
@@ -6,18 +6,18 @@ export function Skills() {
     {
       icon: <Code2 className="w-6 h-6 text-white" />,
       title: "UI & API Automation",
-      skills: ['Playwright', 'Selenium', 'Cypress', 'Postman']
+      skills: ["Playwright", "Selenium", "Cypress", "Postman"],
     },
     {
       icon: <Server className="w-6 h-6 text-white" />,
-      title: "Programming Languages",
-      skills: ['JavaScript', 'TypeScript', 'Java', 'Bash', 'Python']
+      title: "Programming/Scripting",
+      skills: ["JavaScript", "TypeScript", "Java", "Bash", "Python"],
     },
     {
       icon: <Database className="w-6 h-6 text-white" />,
       title: "Tools & Technologies",
-      skills: ['Jenkins', 'Docker', 'Git', 'AWS']
-    }
+      skills: ["Jenkins", "Docker", "Git", "AWS"],
+    },
   ];
 
   return (
@@ -36,12 +36,16 @@ export function Skills() {
           {skillCategories.map((category, index) => (
             <div key={index} className="card group">
               <div className="mb-6">{category.icon}</div>
-              <h3 className="text-2xl font-semibold mb-6 text-white">{category.title}</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-white">
+                {category.title}
+              </h3>
               <ul className="space-y-3">
                 {category.skills.map((skill, skillIndex) => (
                   <li key={skillIndex} className="flex items-center gap-3">
                     <ChevronRight size={16} className="text-white/60" />
-                    <span className="text-white/80 group-hover:text-white transition-colors">{skill}</span>
+                    <span className="text-white/80 group-hover:text-white transition-colors">
+                      {skill}
+                    </span>
                   </li>
                 ))}
               </ul>
