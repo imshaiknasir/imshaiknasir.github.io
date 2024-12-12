@@ -2,16 +2,16 @@ import { Mail, ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <header className="section bg-gradient-to-b from-black to-gray-900">
+    <header className="section bg-gradient-to-b from-gray-50 to-white">
       <div className="container">
         <div className="max-w-2xl">
-          <h1 className="heading-1 mb-6">
+          <h1 className="heading-1 mb-6 text-gray-900">
             Nasir Ahemad
-            <span className="block text-white/60 text-lg font-normal mt-2">
+            <span className="block text-gray-600 text-lg font-normal mt-2">
               Full Stack QA Engineer
             </span>
           </h1>
-          <p className="text-white/80 text-lg mb-8 leading-relaxed">
+          <p className="text-gray-700 text-lg mb-8 leading-relaxed">
             With 6+ years of expertise in Web and API Automation, I specialize
             in building robust testing frameworks and leading teams to deliver
             high-quality software solutions.

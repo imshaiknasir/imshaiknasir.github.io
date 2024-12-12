@@ -20,7 +20,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-mono-900 text-white py-12">
+    <footer className="bg-gray-100 text-gray-800 py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center space-y-6">
           <div className="flex space-x-6">
@@ -28,7 +28,7 @@ export function Footer() {
               <a
                 key={index}
                 href={link.href}
-                className="text-mono-400 hover:text-white transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
                 aria-label={link.label}
                 target="_blank"
               >
@@ -36,7 +36,7 @@ export function Footer() {
               </a>
             ))}
           </div>
-          <p className="text-mono-400 text-sm">
+          <p className="text-gray-600 text-sm">
             © {new Date().getFullYear()} Nasir Ahemad. All rights reserved.
           </p>
         </div>

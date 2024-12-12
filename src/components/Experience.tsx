@@ -31,33 +31,33 @@ export function Experience() {
   ];
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center gap-3 mb-12">
           <motion.div
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            <Briefcase className="w-8 h-8 text-white" />
+            <Briefcase className="w-8 h-8 text-gray-800" />
           </motion.div>
-          <h2 className="heading-2 text-center text-white">Professional Experience</h2>
+          <h2 className="heading-2 text-center text-gray-800">Professional Experience</h2>
         </div>
         <div className="space-y-8 max-w-4xl mx-auto">
           {experiences.map((exp, index) => (
-            <div key={index} className="card">
+            <div key={index} className="card bg-gradient-to-br from-white to-gray-50 shadow-md">
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <h3 className="text-2xl font-semibold text-white">{exp.company}</h3>
-                  <p className="text-white/60">{exp.location}</p>
+                  <h3 className="text-2xl font-semibold text-gray-800">{exp.company}</h3>
+                  <p className="text-gray-600">{exp.location}</p>
                 </div>
-                <span className="text-white/60 font-medium">{exp.duration}</span>
+                <span className="text-gray-600 font-medium">{exp.duration}</span>
               </div>
-              <h4 className="text-xl font-medium text-white mb-6">{exp.position}</h4>
+              <h4 className="text-xl font-medium text-gray-800 mb-6">{exp.position}</h4>
               <ul className="space-y-3">
                 {exp.achievements.map((achievement, achievementIndex) => (
                   <li key={achievementIndex} className="flex items-start gap-3">
-                    <ChevronRight size={16} className="text-white/60 mt-1 flex-shrink-0" />
-                    <span className="text-white/80">{achievement}</span>
+                    <ChevronRight size={16} className="text-gray-600 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700">{achievement}</span>
                   </li>
                 ))}
               </ul>
