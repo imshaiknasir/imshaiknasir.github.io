@@ -10,20 +10,20 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon.ico",
+        url: "./favicon.ico",
         sizes: "any",
       },
       {
-        url: "/icon.svg",
+        url: "./icon.svg",
         type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "/apple-touch-icon.png",
+      url: "./apple-touch-icon.png",
       sizes: "180x180",
     },
   },
-  manifest: "/site.webmanifest",
+  manifest: "./site.webmanifest",
 };
 
 export default function RootLayout({

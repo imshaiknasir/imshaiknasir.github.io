@@ -2,11 +2,12 @@
 const nextConfig = {
   output: "export",
   basePath: "",
-  assetPrefix: "/",
   images: { unoptimized: true },
   eslint: {
     ignoreDuringBuilds: true,
   },
+  trailingSlash: true,
+  assetPrefix: "/",
 };
 
 module.exports = nextConfig;
