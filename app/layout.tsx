@@ -7,6 +7,23 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Nasir Ahemad - Full Stack QA Engineer",
   description: "Portfolio of Nasir Ahemad, Full Stack QA Engineer",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: {
+      url: "/apple-touch-icon.png",
+      sizes: "180x180",
+    },
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -15,10 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="stylesheet" href="./globals.css" />
-      </head>
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>{children}</body>
     </html>
   );
