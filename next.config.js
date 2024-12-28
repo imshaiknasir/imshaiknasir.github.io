@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/",
+  basePath: "/imshaiknasir.github.io",
   images: { unoptimized: true },
   eslint: {
     ignoreDuringBuilds: true,
