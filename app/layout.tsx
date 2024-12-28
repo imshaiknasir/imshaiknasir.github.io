@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="/globals.css" />
+        <link rel="stylesheet" href="/imshaiknasir.github.io/globals.css" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
