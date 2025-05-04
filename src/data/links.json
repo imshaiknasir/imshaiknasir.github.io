@@ -30,6 +30,7 @@
     "education": "#education",
     "skills": "#skills",
     "awards": "#awards",
-    "contact": "#contact"
+    "contact": "#contact",
+    "blog": "/blog"
   }
 } 
