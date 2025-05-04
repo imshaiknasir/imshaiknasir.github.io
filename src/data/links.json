@@ -1,0 +1,35 @@
+{
+  "social": {
+    "linkedin": {
+      "url": "https://linkedin.com/in/imshaiknasir",
+      "label": "LinkedIn",
+      "username": "imshaiknasir"
+    },
+    "github": {
+      "url": "https://github.com/imshaiknasir",
+      "label": "GitHub",
+      "username": "imshaiknasir"
+    },
+    "telegram": {
+      "url": "https://t.me/shell52",
+      "label": "Telegram",
+      "username": "shell52"
+    }
+  },
+  "contact": {
+    "email": "imshaiknasir@protonmail.com"
+  },
+  "resume": {
+    "url": "https://drive.google.com/file/d/1ghkwxSTGonc9YAn2jq4CDyLAxt19J9nr/view?usp=sharing",
+    "label": "Download Resume"
+  },
+  "navigation": {
+    "home": "#",
+    "about": "#about",
+    "experience": "#experience",
+    "education": "#education",
+    "skills": "#skills",
+    "awards": "#awards",
+    "contact": "#contact"
+  }
+} 

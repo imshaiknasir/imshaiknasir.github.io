@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import AboutSection from '../components/AboutSection.astro';
+import ExperienceSection from '../components/ExperienceSection.astro';
+import EducationSection from '../components/EducationSection.astro';
+import SkillsSection from '../components/SkillsSection.astro';
+import AwardsSection from '../components/AwardsSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<Navigation />
+	
+	<main class="pt-24">
+		<!-- Hero Section -->
+		<section id="hero" class="container mx-auto px-4 py-16 md:py-24">
+			<div class="grid md:grid-cols-2 gap-8 items-center">
+				<div>
+					<h1 class="text-4xl md:text-5xl font-bold mb-4">
+						Hi, I'm <span class="text-secondary">Shaik Nasir Ahemad</span>
+					</h1>
+					<h2 class="text-2xl md:text-3xl font-medium mb-6 text-primary">Full Stack QA Engineer</h2>
+					<p class="text-lg mb-8">
+						With 6+ years of experience in test automation, I help build reliable software by implementing comprehensive testing strategies.
+					</p>
+					<div class="flex flex-wrap gap-4">
+						<a href="#contact" class="py-3 px-6 bg-primary text-white font-medium rounded-md hover:bg-primary/90 transition duration-300 ease-in-out">Get in Touch</a>
+						<a href="#experience" class="py-3 px-6 border-2 border-primary text-primary font-medium rounded-md hover:bg-primary/10 transition duration-300 ease-in-out">View Experience</a>
+					</div>
+				</div>
+				<div class="flex justify-center">
+					<!-- Profile image - replace with your actual image when available -->
+					<div class="relative w-64 h-64 rounded-full overflow-hidden border-4 border-secondary shadow-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
+						<span class="text-6xl font-bold text-white">SN</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- About Section -->
+		<AboutSection />
+		
+		<!-- Experience Section -->
+		<ExperienceSection />
+		
+		<!-- Education Section -->
+		<EducationSection />
+		
+		<!-- Skills Section -->
+		<SkillsSection />
+		
+		<!-- Awards Section -->
+		<AwardsSection />
+		
+		<!-- Contact Section -->
+		<ContactSection />
+	</main>
+	
+	<Footer />
+</Layout>
